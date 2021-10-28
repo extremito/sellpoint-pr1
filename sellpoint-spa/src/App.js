@@ -1,12 +1,12 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Login from './View/Pages/Login/Login';
+import Container from './View/Pages/Container/Container';
 
 const theme = createTheme();
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Login />
+      <Container />
     </ThemeProvider>
   );
 }
